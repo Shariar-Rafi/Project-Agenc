@@ -19,17 +19,20 @@ $('.main_slider').slick({
         {
           breakpoint:  991.98,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            centerMode: false,
+
+            // infinite: true,
+            // dots: true
           }
         },
         {
           breakpoint: 767.98,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToScroll: 2,
+            centerMode: false,
           }
         },
         {
