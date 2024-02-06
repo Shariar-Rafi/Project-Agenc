@@ -22,16 +22,13 @@ $('.main_slider').slick({
             slidesToShow: 2,
             slidesToScroll: 2,
             centerMode: false,
-
-            // infinite: true,
-            // dots: true
           }
         },
         {
           breakpoint: 767.98,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToScroll: 1,
             centerMode: false,
           }
         },
