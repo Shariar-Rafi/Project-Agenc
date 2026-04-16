@@ -30,20 +30,18 @@
 
     .navbar .navbar-nav {
         gap: 20px 40px;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
+        align-items: center;
         padding: 30px 0;
     }
 
+    .nav_item_contact {
+        display: block;
+    }
+
     .navbar .custom_btn {
-        color: #4756DF;
-        border-radius: 7px;
-        padding: 4px 42px;
-        background: transparent;
-        border: 2px solid #4756DF;
-        width: 100%;
-        font-size: 19px;
+        display: none;
     }
 
     /* =============================================== */
@@ -473,9 +471,9 @@
 
     .navbar .navbar-nav {
         gap: 20px 40px;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
+        align-items: center;
         padding: 30px 0;
     }
 
@@ -914,9 +912,9 @@
 
     .navbar .navbar-nav {
         gap: 20px 40px;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
+        align-items: center;
         padding: 30px 0;
     }
 

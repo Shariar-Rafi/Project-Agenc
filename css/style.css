@@ -94,6 +94,12 @@ ul {
     column-gap: 67px;
 }
 
+.nav_item_contact {
+    display: none;
+}
+
+
+
 .navbar .navbar-nav .nav-item .nav-link {
     padding: 0 !important;
     color: #FFF;
