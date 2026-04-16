@@ -333,13 +333,6 @@ ul {
     border-radius: 20px;
 }
 
-#work_part .row .work2 .main {
-    border-radius: 3px 3px 20px 20px;
-}
-
-#work_part .row .work2 .main .work2_img {
-    border-radius: 3px;
-}
 
 #work_part .row .col-lg-4 .main h3 {
     color: #151515;
@@ -446,7 +439,10 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    margin: 20px 0;
+}
+
+#review_part .container .review_item .review_item_coma {
+    margin-bottom: 20px;
 }
 
 #review_part .container .review_item .fa-star {
@@ -697,4 +693,12 @@ footer .container .bottom_p {
 
 footer .container .bottom_p a {
     color: #D0D0D0;
+}
+
+footer .container .bottom_p span {
+    font-weight: 600;
+}
+
+footer .container .bottom_p span:hover {
+    color: #6A4DF4;
 }

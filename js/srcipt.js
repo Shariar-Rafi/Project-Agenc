@@ -17,6 +17,14 @@ $('.main_slider').slick({
     centerPadding: '0',
     responsive: [
         {
+          breakpoint:  1300.00,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            centerMode: false,
+          }
+        },
+        {
           breakpoint:  991.98,
           settings: {
             slidesToShow: 2,
@@ -27,7 +35,7 @@ $('.main_slider').slick({
         {
           breakpoint: 767.98,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             centerMode: false,
           }

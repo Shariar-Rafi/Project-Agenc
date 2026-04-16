@@ -166,9 +166,6 @@
         border-radius: 10px;
     }
 
-    #work_part .row .work2 .main .work2_img {
-        border-radius: 10px;
-    }
 
     #work_part .title {
         text-align: center;
@@ -189,7 +186,7 @@
     /* ========================================= */
 
     #agenc_part {
-        padding: 60px 0 30px;
+        padding: 60px 0;
     }
 
     #agenc_part {
@@ -280,23 +277,25 @@
     }
 
     #review_part .container .main_slider .left {
+        top: auto;
         left: 50%;
-        transform: translateY(550%) translateX(-105%);
-        height: 30px;
-        width: 30px;
-        bottom: -8px;
+        transform: translateX(-120%);
+        height: 35px;
+        width: 35px;
+        bottom: -40px;
     }
 
     #review_part .container .main_slider .right {
+        top: auto;
         right: 50%;
-        transform: translateY(550%) translateX(105%);
-        height: 30px;
-        width: 30px;
-        bottom: -8px;
+        transform: translateX(120%);
+        height: 35px;
+        width: 35px;
+        bottom: -40px;
     }
 
     #review_part .container .review_item p {
-        width: 259px;
+        width: 100%;
         font-size: 13px;
         line-height: 22px;
         margin: 10px 0;
@@ -372,6 +371,7 @@
         padding: 10px 10px;
         border-radius: 10px;
         margin: 10px 0;
+        width: 100%;
     }
 
     #form_part form button {
@@ -380,6 +380,7 @@
         line-height: 20px;
         border: 0;
         padding: 10px 0;
+        width: 100%;
     }
 
     /* ============================================== */
@@ -609,9 +610,6 @@
         border-radius: 10px;
     }
 
-    #work_part .row .work2 .main .work2_img {
-        border-radius: 10px;
-    }
 
     #work_part .title {
         text-align: center;
@@ -632,7 +630,7 @@
     /* ========================================= */
 
     #agenc_part {
-        padding: 60px 0 30px;
+        padding: 60px 0;
     }
 
     #agenc_part {
@@ -723,23 +721,25 @@
     }
 
     #review_part .container .main_slider .left {
+        top: auto;
         left: 50%;
-        transform: translateY(550%) translateX(-105%);
-        height: 30px;
-        width: 30px;
-        bottom: -8px;
+        transform: translateX(-120%);
+        height: 35px;
+        width: 35px;
+        bottom: -40px;
     }
 
     #review_part .container .main_slider .right {
+        top: auto;
         right: 50%;
-        transform: translateY(550%) translateX(105%);
-        height: 30px;
-        width: 30px;
-        bottom: -8px;
+        transform: translateX(120%);
+        height: 35px;
+        width: 35px;
+        bottom: -40px;
     }
 
     #review_part .container .review_item p {
-        width: 259px;
+        width: 100%;
         font-size: 13px;
         line-height: 22px;
         margin: 10px 0;
@@ -813,6 +813,7 @@
         padding: 10px 10px;
         border-radius: 10px;
         margin: 10px 0;
+        width: 100%;
     }
 
     #form_part form button {
@@ -821,6 +822,7 @@
         line-height: 20px;
         border: 0;
         padding: 10px 0;
+        width: 100%;
     }
 
     /* ============================================== */
@@ -1052,9 +1054,6 @@
         border-radius: 10px;
     }
 
-    #work_part .row .work2 .main .work2_img {
-        border-radius: 10px;
-    }
 
     #work_part .title {
         text-align: center;
@@ -1075,7 +1074,7 @@
     /* ========================================= */
 
     #agenc_part {
-        padding: 40px 0 20px;
+        padding: 30px 0;
     }
 
     #agenc_part {
@@ -1142,7 +1141,7 @@
 
     /* ==================================================== */
     #review_part {
-        padding: 40px 0;
+        padding: 60px 0;
     }
 
     #review_part .title p {
@@ -1161,19 +1160,21 @@
     }
 
     #review_part .container .main_slider .left {
+        top: auto;
         left: 50%;
-        transform: translateY(550%) translateX(-105%);
-        height: 30px;
-        width: 30px;
-        bottom: -8px;
+        transform: translateX(-120%);
+        height: 35px;
+        width: 35px;
+        bottom: -40px;
     }
 
     #review_part .container .main_slider .right {
+        top: auto;
         right: 50%;
-        transform: translateY(550%) translateX(105%);
-        height: 30px;
-        width: 30px;
-        bottom: -8px;
+        transform: translateX(120%);
+        height: 35px;
+        width: 35px;
+        bottom: -40px;
     }
 
     #review_part .container .review_item p {
@@ -1249,6 +1250,7 @@
         padding: 10px 10px;
         border-radius: 10px;
         margin: 10px 0;
+        width: 100%;
     }
 
     #form_part form button {
@@ -1257,6 +1259,7 @@
         line-height: 20px;
         border: 0;
         padding: 10px 0;
+        width: 100%;
     }
 
     /* ============================================== */
