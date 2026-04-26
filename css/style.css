@@ -284,6 +284,10 @@ ul {
     padding: 149px 0 103px;
 }
 
+#service_part .title p {
+    max-width: 609px;
+}
+
 #service_part .row {
     row-gap: 24px;
 }
@@ -631,7 +635,7 @@ ul {
 }
 
 #form_part form input {
-    color: #D0D0D0;
+    color: #8E8E8E;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
