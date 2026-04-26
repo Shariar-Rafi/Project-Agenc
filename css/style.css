@@ -231,13 +231,10 @@ ul {
 
 #success_part .container {
     background-color: #E0FFF9;
-    padding: 69px 51px 86px 50px;
+    padding: 85px 51px;
     border-radius: 20px;
 }
 
-#success_part .container .left {
-    margin-top: 16px;
-}
 
 #success_part .container .left h3 {
     color: #6A4DF4;
