@@ -48,6 +48,11 @@ ul {
     padding: 15px 42px;
     background: #6A4DF4;
     border: 0;
+    transition: 0.4s;
+}
+
+.custom_btn:hover {
+    background: #4756DF;
 }
 
 
@@ -207,6 +212,11 @@ ul {
     font-size: 0;
 }
 
+.main_banner_slider ul li button:hover {
+    background-color: #6A4DF4;
+
+}
+
 .main_banner_slider ul .slick-active button {
     border-color: #ffffff;
 }
@@ -250,6 +260,7 @@ ul {
 #success_part .container .text {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 30px;
 }
 
@@ -371,7 +382,7 @@ ul {
 }
 
 #agenc_part .title p {
-    max-width: 802px;
+    max-width: 609px;
     margin: 20px auto 137px;
 }
 
@@ -464,7 +475,7 @@ ul {
 
 
 #review_part .container .main_slider .left {
-    background-color: #4756DF;
+    background-color: #6A4DF4;
     color: white;
     position: absolute;
     top: 50%;
@@ -480,8 +491,15 @@ ul {
 
 }
 
-#review_part .container .main_slider .right {
+#review_part .container .main_slider .left:hover {
+    color: #fff;
     background-color: #4756DF;
+    cursor: pointer;
+}
+
+
+#review_part .container .main_slider .right {
+    background-color: #6A4DF4;
     color: white;
     position: absolute;
     top: 50%;
@@ -496,10 +514,20 @@ ul {
     border-radius: 50%;
 }
 
+#review_part .container .main_slider .right:hover {
+    color: #fff;
+    background-color: #4756DF;
+    cursor: pointer;
+}
+
 #review_part .client {
     display: flex;
     margin-top: 20px;
 
+}
+
+#review_part .icon {
+    margin-top: 12px;
 }
 
 #review_part .client .text {
@@ -632,6 +660,11 @@ ul {
     padding: 19px 0;
     background: #6A4DF4;
     margin-top: 10px;
+    transition: .3s;
+}
+
+#form_part form button:hover {
+    background-color: #4756DF;
 }
 
 /* =========================================== */
@@ -676,6 +709,13 @@ footer .footer_menu ul a {
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
+    transition: .4s;
+}
+
+footer .footer_menu ul a:hover {
+    color: #6A4DF4;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 footer .container .bottom_p {
@@ -687,8 +727,8 @@ footer .container .bottom_p {
     line-height: 26px;
     border-top: 1px solid #E8E8E8;
     text-align: center;
-    padding: 33px;
-    margin-top: 50px;
+    padding: 23px;
+    margin-top: 40px;
 }
 
 footer .container .bottom_p a {
