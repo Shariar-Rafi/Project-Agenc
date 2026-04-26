@@ -51,3 +51,13 @@ $('.main_slider').slick({
       ]
     
 });
+
+$(window).scroll(function () {
+    var scrolling = $(this).scrollTop();
+
+    if (scrolling > 100) {
+        $('.navbar').addClass('sticky_nav');
+    } else {
+        $('.navbar').removeClass('sticky_nav');
+    }
+});
