@@ -198,7 +198,7 @@
     }
 
     #agenc_part .container {
-        background: url("../images/agenc_img.jpg") no-repeat center / cover;
+        background: url("../images/agenc_img.png") no-repeat center / cover;
         position: relative;
         z-index: 1;
         padding: 30px 12px;
@@ -642,7 +642,7 @@
     }
 
     #agenc_part .container {
-        background: url("../images/agenc_img.jpg") no-repeat center / cover;
+        background: url("../images/agenc_img.png") no-repeat center / cover;
         position: relative;
         z-index: 1;
         padding: 30px 12px;
@@ -1086,7 +1086,7 @@
     }
 
     #agenc_part .container {
-        background: url("../images/agenc_img.jpg") no-repeat center / cover;
+        background: url("../images/agenc_img.png") no-repeat center / cover;
         position: relative;
         z-index: 1;
         padding: 30px 12px;
