@@ -1,15 +1,17 @@
 # Agenc - Modern Creative Agency Landing Page
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://shariar-rafi.github.io/Project-Agenc/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
 **Agenc** is a premium, high-performance landing page designed for creative agencies and technology companies. Built with a focus on modern aesthetics, fluid animations, and a seamless user experience across all devices.
 
 ---
 
+## Live Demo
+
+[Project-Agenc](https://shariar-rafi.github.io/Project-Agenc/)
+
 ## 📸 Preview
 
 ### Desktop View
+
 ![Desktop Preview](screenshots/desktop.png)
 
 <p align="center">
@@ -21,13 +23,12 @@
 
 ## ✨ Key Features
 
-- 🚀 **Modern & Clean UI**: A professional design language that builds trust.
-- 📱 **Fully Responsive**: Optimized for Desktop, Tablet, and Mobile screens.
-- 🎭 **Smooth Animations**: Intersection Observer based reveal effects for an interactive feel.
-- 🎡 **Dynamic Sliders**: Integrated Slick Slider for Hero and Testimonial sections.
-- 📊 **Success Counters**: Animated statistics to showcase agency growth.
-- 📩 **Contact Ready**: A clean, functional lead generation form.
-- 🛠️ **SEO Optimized**: Semantic HTML structure for better search visibility.
+- **Modern & Clean UI**: A professional design language that builds trust.
+- **Fully Responsive**: Optimized for Desktop, Tablet, and Mobile screens.
+- **Smooth Animations**: Intersection Observer based reveal effects for an interactive feel.
+- **Dynamic Sliders**: Integrated Slick Slider for Hero and Testimonial sections.
+- **Success Counters**: Animated statistics to showcase agency growth.
+- **Contact Ready**: A clean, functional lead generation form.
 
 ---
 
@@ -44,11 +45,13 @@
 ## 🚀 Quick Start
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/shariar-rafi/Project-Agenc.git
    ```
 
 2. **Navigate to the directory**
+
    ```bash
    cd Project-Agenc
    ```
