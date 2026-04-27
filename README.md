@@ -28,10 +28,10 @@
 ## Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-- **Framework:** Bootstrap 5
+- **Framework:** Bootstrap
 - **Libraries:** jQuery, Slick Slider
 - **Fonts:** Inter
-- **Icons:** FontAwesome 6
+- **Icons:** FontAwesome
 
 ---
 
@@ -50,12 +50,11 @@
    ```
 
 3. **Open the project**
-   Simply open `index.html` in your favorite browser.
+   Simply open `index.html` in your browser or open with Live Server.
 
 ---
 
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
