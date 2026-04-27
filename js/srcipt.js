@@ -61,3 +61,50 @@ $(window).scroll(function () {
         $('.navbar').removeClass('sticky_nav');
     }
 });
+
+// Counter Animation Logic
+const counterElements = document.querySelectorAll('.counter');
+
+const startCounterAnimation = () => {
+    counterElements.forEach(counter => {
+        const target = parseFloat(counter.getAttribute('data-target'));
+        const suffix = counter.getAttribute('data-suffix') || '';
+        const duration = 1500; // Animation duration in ms
+        let startTimestamp = null;
+
+        const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            const currentCount = progress * target;
+
+            if (target % 1 !== 0) {
+                counter.innerText = currentCount.toFixed(1) + suffix;
+            } else {
+                counter.innerText = Math.floor(currentCount) + suffix;
+            }
+
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            } else {
+                counter.innerText = target + suffix;
+            }
+        };
+
+        window.requestAnimationFrame(step);
+    });
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            startCounterAnimation();
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.5 });
+
+const successPart = document.querySelector('#success_part');
+if (successPart) {
+    observer.observe(successPart);
+}
+
