@@ -6,43 +6,36 @@
 
 ## Live Demo
 
-[Project-Agenc](https://shariar-rafi.github.io/Project-Agenc/)
+[Click Here](https://shariar-rafi.github.io/Project-Agenc/)
 
-## 📸 Preview
+## Preview
 
 ### Desktop View
 
 ![Desktop Preview](screenshots/desktop.png)
 
-<p align="center">
-  <img src="screenshots/ipad.png" width="45%" alt="iPad Preview" />
-  <img src="screenshots/mobile.png" width="25%" alt="Mobile Preview" />
-</p>
-
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Modern & Clean UI**: A professional design language that builds trust.
 - **Fully Responsive**: Optimized for Desktop, Tablet, and Mobile screens.
 - **Smooth Animations**: Intersection Observer based reveal effects for an interactive feel.
-- **Dynamic Sliders**: Integrated Slick Slider for Hero and Testimonial sections.
-- **Success Counters**: Animated statistics to showcase agency growth.
-- **Contact Ready**: A clean, functional lead generation form.
+- **Dynamic Sliders**: Integrated Slick Slider for Hero and Reviews sections.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-- **Framework:** [Bootstrap 5](https://getbootstrap.com/)
-- **Libraries:** [jQuery](https://jquery.com/), [Slick Slider](https://kenwheeler.github.io/slick/)
-- **Fonts:** Inter (Google Fonts)
+- **Framework:** Bootstrap 5
+- **Libraries:** jQuery, Slick Slider
+- **Fonts:** Inter
 - **Icons:** FontAwesome 6
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Clone the repository**
 
@@ -61,9 +54,6 @@
 
 ---
 
-## 🤝 Contribution
-
-Contributions are welcome! Feel free to open an issue or submit a pull request if you have any improvements.
 
 ## 📄 License
 
