@@ -169,7 +169,6 @@ ul {
 }
 
 
-
 /* ========================================================== */
 .banner_part01 {
     background: url(../images/banner1.jpg) no-repeat center/cover;
@@ -179,7 +178,7 @@ ul {
 }
 
 .banner_part02 {
-    background: url(../images/banner3.jpg) no-repeat center/cover;
+    background: url(../images/banner2.jpg) no-repeat center/cover;
 }
 
 .banner_part03 {
@@ -187,7 +186,7 @@ ul {
 }
 
 .banner_part04 {
-    background: url(../images/banner2.jpg) no-repeat center/cover;
+    background: url(../images/banner3.jpg) no-repeat center/cover;
 }
 
 
